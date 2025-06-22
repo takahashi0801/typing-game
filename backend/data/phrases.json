@@ -3,7 +3,7 @@
   {
     "text": "Good evening",
     "translation": "こんばんは",
-    "romaji": "konnbannwa",
+    "romaji": "konnbannha",
     "difficulty": "easy"
   },
   {
@@ -124,32 +124,32 @@
 
   {
     "text": "How is the weather today?",
-    "translation": "今日の天気はどうですか？",
-    "romaji": "kyounotennkiwadoudesuka",
+    "translation": "今日の天気はどうですか",
+    "romaji": "kyounotennkihadoudesuka",
     "difficulty": "medium"
   },
   {
     "text": "What time is it now?",
-    "translation": "今何時ですか？",
+    "translation": "今何時ですか",
     "romaji": "imanannjidesuka",
     "difficulty": "medium"
   },
   {
     "text": "Can you help me, please?",
-    "translation": "手伝ってもらえますか？",
+    "translation": "手伝ってもらえますか",
     "romaji": "tetudattemoraemasuka",
     "difficulty": "medium"
   },
   {
     "text": "I would like to order this dish.",
-    "translation": "この料理を注文したいです。",
-    "romaji": "konoryouriwotyuumonnsitaidesu.",
+    "translation": "この料理を注文したいです",
+    "romaji": "konoryouriwotyuumonnsitaidesu",
     "difficulty": "medium"
   },
   {
     "text": "Do you have any recommendations?",
     "translation": "何かおすすめはありますか",
-    "romaji": "nanikaosusumewaarimasuka",
+    "romaji": "nanikaosusumehaarimasuka",
     "difficulty": "medium"
   },
   {
@@ -161,13 +161,13 @@
   {
     "text": "Where can I find a convenience store?",
     "translation": "コンビニはどこにありますか",
-    "romaji": "konnbiniwadokoniarimasuka",
+    "romaji": "konnbinihadokoniarimasuka",
     "difficulty": "medium"
   },
   {
     "text": "Is there Wi-Fi available here?",
     "translation": "ここにWi-Fiはありますか",
-    "romaji": "kokoniwifiwaarimasuka",
+    "romaji": "kokoniwifihaarimasuka",
     "difficulty": "medium"
   },
   {
@@ -179,30 +179,30 @@
   {
     "text": "I will be there in ten minutes.",
     "translation": "10分でそちらに着きます",
-    "romaji": "juppundesochiranitukimasu",
+    "romaji": "juppunndesochiranitukimasu",
     "difficulty": "medium"
   },
  {
     "text": "Could you take a photo of me?",
     "translation": "私の写真を撮ってくれますか",
-    "romaji": "watashinoshashinwotottekuremasuka",
+    "romaji": "watashinoshashinnwotottekuremasuka",
     "difficulty": "medium"
   },
   {
     "text": "I'm looking for this address.",
-    "translation": "この住所を探しています。",
-    "romaji": "konojuushowosagashiteimasu.",
+    "translation": "この住所を探しています",
+    "romaji": "konojuushowosagashiteimasu",
     "difficulty": "medium"
   },
   {
     "text": "I don't eat meat.",
-    "translation": "私は肉を食べません。",
-    "romaji": "watashiwanikuwotabemasen",
+    "translation": "私は肉を食べません",
+    "romaji": "watashihanikuwotabemasenn",
     "difficulty": "medium"
   },
   {
     "text": "Can you show me on the map?",
-    "translation": "地図で示してもらえますか？",
+    "translation": "地図で示してもらえますか",
     "romaji": "tizudeshimeshitemoraemasuka",
     "difficulty": "medium"
   },
@@ -215,30 +215,30 @@
   {
     "text": "What is today's special?",
     "translation": "本日のおすすめは何ですか",
-    "romaji": "honnjitunoosusumewananndesuka",
+    "romaji": "honnjitunoosusumehananndesuka",
     "difficulty": "medium"
   },
   {
     "text": "Can I try this on?",
-    "translation": "これを試着してもいいですか？",
+    "translation": "これを試着してもいいですか",
     "romaji": "korewoshichakushitemoiidesuka",
     "difficulty": "medium"
   },
   {
     "text": "Where can I buy tickets?",
-    "translation": "どこでチケットを買えますか？",
+    "translation": "どこでチケットを買えますか",
     "romaji": "dokodetikettowokaemasuka",
     "difficulty": "medium"
   },
   {
     "text": "Do you have a restroom here?",
-    "translation": "こちらにトイレはありますか？",
-    "romaji": "kochiranitoirewaarimasuka",
+    "translation": "こちらにトイレはありますか",
+    "romaji": "kotiranitoirehaarimasuka",
     "difficulty": "medium"
   },
   {
     "text": "I have a reservation under Smith.",
-    "translation": "スミスの名前で予約しています。",
+    "translation": "スミスの名前で予約しています",
     "romaji": "sumisunonamaedeyoyakushiteimasu",
     "difficulty": "medium"
   },
@@ -258,13 +258,13 @@
   {
     "text": "Despite the challenges, we managed to complete the project on time.",
     "translation": "困難にもかかわらず、私たちはプロジェクトを時間通りに完了できました。",
-    "romaji": "konnnannnimokakawarazu,watashitachiwapurojekutowojikanndoorinikannryoudekimasita.",
+    "romaji": "konnnannnimokakawarazu,watashitachihapurojekutowojikanndoorinikannryoudekimasita.",
     "difficulty": "hard"
   },
   {
     "text": "He mentioned that the meeting has been rescheduled to next week.",
     "translation": "彼は会議が来週に再スケジュールされたと言いました。",
-    "romaji": "karewakaigigaraisyuunisaisukejyuurusaretatoiimashita.",
+    "romaji": "karehakaigigaraisyuunisaisukejyuurusaretatoiimashita.",
     "difficulty": "hard"
   },
   {
@@ -312,7 +312,7 @@
   {
     "text": "The weather forecast predicts heavy rain tomorrow.",
     "translation": "天気予報では明日は大雨になる予想です。",
-    "romaji": "tennkiyohoudewaashitawaooameninaruyosoudesu.",
+    "romaji": "tennkiyohoudehaashitawaooameninaruyosoudesu.",
     "difficulty": "hard"
   },
   {

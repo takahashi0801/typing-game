@@ -1,0 +1,366 @@
+[
+
+  {
+    "text": "Good evening",
+    "translation": "こんばんは",
+    "romaji": "konnbannwa",
+    "difficulty": "easy"
+  },
+  {
+    "text": "Welcome",
+    "translation": "ようこそ",
+    "romaji": "youkoso",
+    "difficulty": "easy"
+  },
+  {
+    "text": "Good night",
+    "translation": "おやすみ",
+    "romaji": "oyasumi",
+    "difficulty": "easy"
+  },
+  {
+    "text": "Delicious",
+    "translation": "おいしい",
+    "romaji": "oishii",
+    "difficulty": "easy"
+  },
+  {
+    "text": "Beautiful",
+    "translation": "きれい",
+    "romaji": "kirei",
+    "difficulty": "easy"
+  },
+  {
+    "text": "Love",
+    "translation": "愛",
+    "romaji": "ai",
+    "difficulty": "easy"
+  },
+  {
+    "text": "Happy",
+    "translation": "嬉しい",
+    "romaji": "ureshii",
+    "difficulty": "easy"
+  },
+  {
+    "text": "Friend",
+    "translation": "友達",
+    "romaji": "tomodachi",
+    "difficulty": "easy"
+  },
+  {
+    "text": "Music",
+    "translation": "音楽",
+    "romaji": "onngaku",
+    "difficulty": "easy"
+  },
+  {
+    "text": "Smile",
+    "translation": "笑顔",
+    "romaji": "egao",
+    "difficulty": "easy"
+  },
+   {
+    "text": "Family",
+    "translation": "家族",
+    "romaji": "kazoku",
+    "difficulty": "easy"
+  },
+  {
+    "text": "Money",
+    "translation": "お金",
+    "romaji": "okane",
+    "difficulty": "easy"
+  },
+  {
+    "text": "Phone",
+    "translation": "電話",
+    "romaji": "dennwa",
+    "difficulty": "easy"
+  },
+  {
+    "text": "Food",
+    "translation": "食べ物",
+    "romaji": "tabemono",
+    "difficulty": "easy"
+  },
+  {
+    "text": "Drink",
+    "translation": "飲み物",
+    "romaji": "nomimono",
+    "difficulty": "easy"
+  },
+  {
+    "text": "Dog",
+    "translation": "犬",
+    "romaji": "inu",
+    "difficulty": "easy"
+  },
+  {
+    "text": "Cat",
+    "translation": "猫",
+    "romaji": "neko",
+    "difficulty": "easy"
+  },
+  {
+    "text": "Chair",
+    "translation": "椅子",
+    "romaji": "isu",
+    "difficulty": "easy"
+  },
+  {
+    "text": "Table",
+    "translation": "テーブル",
+    "romaji": "teeburu",
+    "difficulty": "easy"
+  },
+  {
+    "text": "Station",
+    "translation": "駅",
+    "romaji": "eki",
+    "difficulty": "easy"
+  },
+  
+
+  {
+    "text": "How is the weather today?",
+    "translation": "今日の天気はどうですか？",
+    "romaji": "kyounotennkiwadoudesuka",
+    "difficulty": "medium"
+  },
+  {
+    "text": "What time is it now?",
+    "translation": "今何時ですか？",
+    "romaji": "imanannjidesuka",
+    "difficulty": "medium"
+  },
+  {
+    "text": "Can you help me, please?",
+    "translation": "手伝ってもらえますか？",
+    "romaji": "tetudattemoraemasuka",
+    "difficulty": "medium"
+  },
+  {
+    "text": "I would like to order this dish.",
+    "translation": "この料理を注文したいです。",
+    "romaji": "konoryouriwotyuumonnsitaidesu.",
+    "difficulty": "medium"
+  },
+  {
+    "text": "Do you have any recommendations?",
+    "translation": "何かおすすめはありますか",
+    "romaji": "nanikaosusumewaarimasuka",
+    "difficulty": "medium"
+  },
+  {
+    "text": "How long will it take?",
+    "translation": "どれくらい時間がかかりますか",
+    "romaji": "dorekuraijikanngakakarimasuka",
+    "difficulty": "medium"
+  },
+  {
+    "text": "Where can I find a convenience store?",
+    "translation": "コンビニはどこにありますか",
+    "romaji": "konnbiniwadokoniarimasuka",
+    "difficulty": "medium"
+  },
+  {
+    "text": "Is there Wi-Fi available here?",
+    "translation": "ここにWi-Fiはありますか",
+    "romaji": "kokoniwifiwaarimasuka",
+    "difficulty": "medium"
+  },
+  {
+    "text": "Can I pay by credit card?",
+    "translation": "クレジットカードで支払えますか",
+    "romaji": "kurejittokaadodeshiharaemasuka",
+    "difficulty": "medium"
+  },
+  {
+    "text": "I will be there in ten minutes.",
+    "translation": "10分でそちらに着きます",
+    "romaji": "juppundesochiranitukimasu",
+    "difficulty": "medium"
+  },
+ {
+    "text": "Could you take a photo of me?",
+    "translation": "私の写真を撮ってくれますか",
+    "romaji": "watashinoshashinwotottekuremasuka",
+    "difficulty": "medium"
+  },
+  {
+    "text": "I'm looking for this address.",
+    "translation": "この住所を探しています。",
+    "romaji": "konojuushowosagashiteimasu.",
+    "difficulty": "medium"
+  },
+  {
+    "text": "I don't eat meat.",
+    "translation": "私は肉を食べません。",
+    "romaji": "watashiwanikuwotabemasen",
+    "difficulty": "medium"
+  },
+  {
+    "text": "Can you show me on the map?",
+    "translation": "地図で示してもらえますか？",
+    "romaji": "tizudeshimeshitemoraemasuka",
+    "difficulty": "medium"
+  },
+  {
+    "text": "I'd like a table for two.",
+    "translation": "2名用のテーブルをお願いします。",
+    "romaji": "nimeiyounoteeburuwoonegaishimasu",
+    "difficulty": "medium"
+  },
+  {
+    "text": "What is today's special?",
+    "translation": "本日のおすすめは何ですか",
+    "romaji": "honnjitunoosusumewananndesuka",
+    "difficulty": "medium"
+  },
+  {
+    "text": "Can I try this on?",
+    "translation": "これを試着してもいいですか？",
+    "romaji": "korewoshichakushitemoiidesuka",
+    "difficulty": "medium"
+  },
+  {
+    "text": "Where can I buy tickets?",
+    "translation": "どこでチケットを買えますか？",
+    "romaji": "dokodetikettowokaemasuka",
+    "difficulty": "medium"
+  },
+  {
+    "text": "Do you have a restroom here?",
+    "translation": "こちらにトイレはありますか？",
+    "romaji": "kochiranitoirewaarimasuka",
+    "difficulty": "medium"
+  },
+  {
+    "text": "I have a reservation under Smith.",
+    "translation": "スミスの名前で予約しています。",
+    "romaji": "sumisunonamaedeyoyakushiteimasu",
+    "difficulty": "medium"
+  },
+
+  {
+    "text": "Could you explain the cancellation policy in detail, please?",
+    "translation": "キャンセルポリシーを詳しく説明していただけますか？",
+    "romaji": "kyannseruporisiiwokuwasikusetumeisiteitadakemasuka.",
+    "difficulty": "hard"
+  },
+  {
+    "text": "I would appreciate it if you could send me a confirmation email by tomorrow.",
+    "translation": "明日までに確認メールを送っていただけるとありがたいです。",
+    "romaji": "ashitamadenikakuninnmeeruwookutteitadakerutoarigataidesu.",
+    "difficulty": "hard"
+  },
+  {
+    "text": "Despite the challenges, we managed to complete the project on time.",
+    "translation": "困難にもかかわらず、私たちはプロジェクトを時間通りに完了できました。",
+    "romaji": "konnnannnimokakawarazu,watashitachiwapurojekutowojikanndoorinikannryoudekimasita.",
+    "difficulty": "hard"
+  },
+  {
+    "text": "He mentioned that the meeting has been rescheduled to next week.",
+    "translation": "彼は会議が来週に再スケジュールされたと言いました。",
+    "romaji": "karewakaigigaraisyuunisaisukejyuurusaretatoiimashita.",
+    "difficulty": "hard"
+  },
+  {
+    "text": "Please let me know your availability for next week.",
+    "translation": "来週のご都合をお知らせください。",
+    "romaji": "raisyuunogotugouwooshirasekudasai",
+    "difficulty": "hard"
+  },
+  {
+    "text": "If you have any questions, feel free to ask at the reception desk.",
+    "translation": "ご質問があれば、遠慮なく受付までお尋ねください。",
+    "romaji": "goshitumonngaareba,enryonakuuketukemadeotazunekudasai.",
+    "difficulty": "hard"
+  },
+  {
+    "text": "I'm looking forward to meeting you at the conference next month.",
+    "translation": "来月の会議でお会いできるのを楽しみにしています。",
+    "romaji": "raigetunokaigideoaidekirunowotanoshiminishiteimasu.",
+    "difficulty": "hard"
+  },
+  {
+    "text": "It was a pleasure working with you on this assignment.",
+    "translation": "この課題でご一緒できて光栄でした。",
+    "romaji": "konokadaidegoisshodekitekoueidesita.",
+    "difficulty": "hard"
+  },
+  {
+    "text": "Could you provide more details about the project requirements?",
+    "translation": "プロジェクトの要件について、もう少し詳しく教えていただけますか",
+    "romaji": "purojekutonoyoukennnituite,mousukoshikuwashikuoshieteitadakemasuka",
+    "difficulty": "hard"
+  },
+  {
+    "text": "Thank you for your prompt attention to this matter.",
+    "translation": "本件につきまして迅速にご対応いただき、ありがとうございます。",
+    "romaji": "honkennnitukimashitejinnsokunigotaiouitadaki,arigatougozaimasu.",
+    "difficulty": "hard"
+  },
+   {
+    "text": "I would be grateful if you could arrange a taxi for me.",
+    "translation": "タクシーを手配していただけるとありがたいです。",
+    "romaji": "takushiiwotehaishiteitadakerutoarigataidesu.",
+    "difficulty": "hard"
+  },
+  {
+    "text": "The weather forecast predicts heavy rain tomorrow.",
+    "translation": "天気予報では明日は大雨になる予想です。",
+    "romaji": "tennkiyohoudewaashitawaooameninaruyosoudesu.",
+    "difficulty": "hard"
+  },
+  {
+    "text": "Please ensure that all documents are submitted by the deadline.",
+    "translation": "全ての書類を締め切りまでに提出してください。",
+    "romaji": "subetenoshoruiwoshimekirimadeniteisyutushitekudasai.",
+    "difficulty": "hard"
+  },
+  {
+    "text": "Could you please recommend a good restaurant nearby?",
+    "translation": "近くのおすすめレストランを教えていただけますか",
+    "romaji": "tikakunoosusumeresutoranwooshieteitadakemasuka",
+    "difficulty": "hard"
+  },
+  {
+    "text": "I apologize for the inconvenience caused by the delay.",
+    "translation": "遅延によりご迷惑をおかけして申し訳ありません。",
+    "romaji": "tiennniyorigomeiwakuwookakeshitemoushiwakearimasenn.",
+    "difficulty": "hard"
+  },
+  {
+    "text": "Despite the challenges, the machine still does not operate properly.",
+    "translation": "あらゆる努力にもかかわらず、機械は依然として正常に動作しません。",
+    "romaji": "arayurudoryokunimokakawarazu,kikaiwaizentoshiteseijounidousashimasenn.",
+    "difficulty": "hard"
+  },
+  {
+    "text": "The meeting room is reserved from 3 PM until 5 PM tomorrow.",
+    "translation": "会議室は明日午後3時から午後5時まで予約されています。",
+    "romaji": "kaigishituwaashitagogosannjikaragogogojimadeyoyakusareteimasu.",
+    "difficulty": "hard"
+  },
+  {
+    "text": "We look forward to receiving your feedback at your earliest convenience.",
+    "translation": "できるだけ早くご意見をお寄せいただければ幸いです。",
+    "romaji": "dekirudakehayakugoikennwooyoseitadakerebasaiwaidesu.",
+    "difficulty": "hard"
+  },
+  {
+    "text": "Could you please clarify the conditions mentioned in the contract?",
+    "translation": "契約書に記載されている条件を明確にしていただけますか",
+    "romaji": "keiyakushonikisaisareteirujoukenwomeikakunishiteitadakemasuka",
+    "difficulty": "hard"
+  },
+  {
+    "text": "I apologize for the oversight and will ensure it does not happen again.",
+    "translation": "見落としについてお詫び申し上げます。二度とこのようなことがないようにいたします。",
+    "romaji": "miotoshinituiteowabimoushiagemasu.nidotokonoyounakotoganaiyouniitashimasu.",
+    "difficulty": "hard"
+  }
+]

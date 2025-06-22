@@ -1,0 +1,204 @@
+/* ── ベースリセット ───────────────────────────────── */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+html, body {
+  width: 100%;
+  height: 100%;
+}
+/* ── BGMトグルボタン ──────────────────────────────── */
+#bgm-toggle {
+  position: fixed;
+  top: 12px;
+  left: 12px;
+  z-index: 1000;
+  background: none;
+  border: none;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+#bgm-toggle:focus { outline: none; }
+
+/* ── 共通：全画面背景＋中央カード ─────────────────── */
+#start-screen,
+#game {
+  position: fixed;
+  inset: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+#start-screen { background-image: url('images/top.jpg'); }
+#game         { background-image: url('images/game_bg.jpg'); }
+
+#start-screen .overlay,
+#game .overlay {
+  position: absolute;
+  inset: 0;
+  /*background-color: rgba(255,255,255,0.8);*/
+  z-index: 0;
+}
+
+#start-screen .content,
+#game .content {
+  position: relative;
+  z-index: 1;
+  width: 90%;
+  max-width: 750px;
+  padding: 50px;
+  background: #3feacd;
+  border-radius: 12px;
+  box-shadow: 0 4px 16px rgba(0,0,0,0.1);
+  text-align: center;
+  word-wrap: break-word;
+  word-break: break-word;
+}
+
+/* ── トップ画面スタイル ───────────────────────── */
+#start-screen .content h1 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+#start-screen .content label {
+  display: block;
+  margin-bottom: 0.5rem;
+}
+#start-screen .content select {
+  width: 100%;
+  max-width: 250px;
+  margin-bottom: 1rem;
+}
+#start-screen .content button {
+  padding: 0.6em 1.2em;
+  font-size: 1rem;
+}
+
+/* ── ゲーム画面スタイル ───────────────────────── */
+#phrase-display {
+  font-size: 1.4rem;
+  font-weight: bold;
+  margin-bottom: 12px;
+}
+.translation {
+  font-size: 1rem;
+  color: #333;
+  margin-bottom: 10px;
+}
+#romaji.romaji {
+  font-size: 1.1rem;
+  margin-bottom: 12px;
+}
+.romaji span.typed {
+  color: rgba(0,0,0,0.4);
+}
+.romaji span.untyped {
+  color: #000;
+}
+#input-area {
+  width: 100%;
+  height: 50px;
+  font-size: 1rem;
+  padding: 8px;
+  margin-bottom: 12px;
+  box-sizing: border-box;
+}
+
+/* タイマー表示 */
+.timer {
+  display: inline-flex;
+  align-items: center;
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #333;
+  padding: 0.2em 0.5em;
+  border-radius: 4px;
+  background: rgba(255,255,255,0.8);
+  box-shadow: 0 1px 4px rgba(0,0,0,0.1);
+}
+.timer .icon {
+  margin-right: 0.3em;
+  font-size: 1.2em;
+}
+
+/* 点滅アニメーション */
+@keyframes blink {
+  0%, 100% { opacity: 1; }
+  50%      { opacity: 0; }
+}
+
+/* 残り10秒以下で時間部分のみ赤＋点滅 */
+.timer .time.warning {
+  color: #c00;
+  animation: blink 1s step-start infinite;
+}
+
+/* 既存の #info はそのまま */
+#info {
+  display: flex;
+  align-items: center;
+  /* gap: 1rem; などスペース指定があれば残す */
+}
+
+/* タイプ成功数を右端に押し出す */
+#successes {
+  margin-left: auto;
+}
+
+/* ミスタイプ数は成功数のすぐ右に */
+#errors {
+  margin-left: 1rem; /* お好みで調整 */
+}
+
+
+/* ── 結果画面：全画面背景＋中央カード ─────────────────── */
+#result-screen {
+  position: fixed;
+  inset: 0; /* top:0; right:0; bottom:0; left:0 */
+  background: url('images/result_bg.jpg') center/cover no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* オーバーレイ */
+#result-screen .overlay {
+  position: absolute;
+  inset: 0;
+  /*background-color: rgba(255, 255, 255, 0.8);*/
+  z-index: 0;
+}
+
+/* カード型コンテンツ */
+#result-screen .content {
+  position: relative;
+  z-index: 1;
+  background: #3feacd;
+  padding: 24px;
+  width: 90%;
+  max-width: 500px;
+  border-radius: 8px;
+  box-shadow: 0 4px 16px rgba(0,0,0,0.1);
+  text-align: center;
+}
+
+/* 内部の見出しとテキスト */
+#result-screen .content h1 {
+  margin-bottom: 1rem;
+  font-size: 2rem;
+}
+#result-screen .content p {
+  margin: 0.5rem 0;
+  font-size: 1.1rem;
+}
+#result-screen .content button {
+  margin-top: 1rem;
+  padding: 0.6em 1.2em;
+  font-size: 1rem;
+  cursor: pointer;
+}

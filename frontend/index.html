@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8" />
+  <title>英会話タイピングゲーム</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- BGM ON/OFF トグルボタン -->
+  <button id="bgm-toggle" title="BGM ON/OFF">🔇</button>
+
+  <!-- BGM -->
+  <audio id="bgm" src="top_bgm.mp3" loop preload="auto"></audio>
+  <audio id="game-bgm" src="game_bgm.mp3" loop preload="auto"></audio>
+
+  <!-- トップ画面 -->
+  <div id="start-screen">
+    <div class="overlay"></div>
+    <div class="content">
+      <h1>英会話タイピングゲーム</h1>
+      <label for="difficulty">難易度を選んでください</label>
+      <select id="difficulty">
+        <option value="easy">🟢 Easy</option>
+        <option value="medium">🟡 Normal</option>
+        <option value="hard">🔴 Hard</option>
+      </select>
+      <br>
+      <button id="start-btn">スタート</button>
+    </div>
+  </div>
+
+  <!-- ゲーム画面 -->
+  <div id="game">
+    <div class="overlay"></div>
+    <div class="content">
+      <div id="phrase-display">Loading...</div>
+      <div id="translation" class="translation"></div>
+      <div id="romaji" class="translation romaji"></div>
+      <textarea id="input-area" placeholder="ここにローマ字で入力"></textarea>
+      <div id="info">
+        <span id="timer" class="timer">
+          <span class="icon">⏱</span>
+          <span class="time">0.0s</span>
+        </span>
+        <span id="successes">タイプ成功数: 0</span>
+        <span id="errors">ミスタイプ数: 0</span>
+      </div>
+    </div>
+  </div>
+
+  <script src="main.js"></script>
+</body>
+</html>

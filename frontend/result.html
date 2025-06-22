@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8" />
+  <title>結果</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body id="result-screen">
+  <!-- オーバーレイ -->
+  <div class="overlay"></div>
+
+  <!-- 中央カード -->
+  <div class="content">
+    <h1>結果</h1>
+    <p>難易度: <span id="res-difficulty"></span></p>
+    <p>経過時間: <span id="res-time"></span> 秒</p>
+    <p>タイプ成功数: <span id="res-successes"></span></p>
+    <p>ミスタイプ数: <span id="res-errors"></span></p>
+    <button id="retry-btn">もう一度挑戦</button>
+  </div>
+
+  <script>
+    // URLパラメータから値を取得して埋め込む簡易スクリプト
+    const params = new URLSearchParams(location.search);
+    document.getElementById('res-difficulty').textContent = params.get('difficulty');
+    document.getElementById('res-time').textContent       = params.get('time');
+    document.getElementById('res-successes').textContent = params.get('successes');
+    document.getElementById('res-errors').textContent    = params.get('errors');
+    document.getElementById('retry-btn').addEventListener('click', () => {
+      location.href = '/';
+    });
+  </script>
+</body>
+</html>

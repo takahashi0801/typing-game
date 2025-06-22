@@ -34,4 +34,5 @@ def get_phrase():
     return jsonify(random.choice(filtered))
 
 if __name__ == "__main__":
-    app.run(debug=True)
+    port = int(os.environ.get("PORT", 5000))  # RenderはPORT環境変数を使う
+    app.run(debug=False, host="0.0.0.0", port=port)
